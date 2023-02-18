@@ -1,0 +1,1501 @@
+.mainConteiner{
+  /* Main container */
+
+
+  position: relative;
+  width: 1920px;
+  height: 5755px;
+}
+
+
+.Rectangle1{
+  position: absolute;
+  width: 1920px;
+  height: 760px;
+  left: 0px;
+  top: 0px;
+  
+  background: #F9F9F9 !important;
+}
+
+
+
+.NavBar{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  z-index: 19;
+  display: block;
+  
+  /* identical to box height */
+  
+  
+  color: #333333 !important;
+}  
+
+.AboutUs{
+  display: inline-block;
+  position: absolute;
+  width: 100px;
+  height: 17px;
+  left: 581px;
+  top: 39px;
+  z-index: 9;
+  
+}
+
+
+.BookOnline{
+  position: absolute;
+  width: 87px;
+  height: 17px;
+  left: 683px;
+  top: 39px;
+  z-index: 9;
+  white-space: nowrap;
+}
+  
+.WeightLossPrograms{
+  position: absolute;
+  width: 159px;
+  height: 17px;
+  left: 806px;
+  top: 39px;
+  z-index: 9;
+  white-space: nowrap;
+  
+}
+.RealPatientStories{
+  position: absolute;
+  width: 137px;
+  height: 17px;
+  left: 1001px;
+  top: 39px;
+  z-index: 9;
+  white-space: nowrap;
+  
+}
+.Locations{
+  position: absolute;
+  width: 68px;
+  height: 17px;
+  left: 1174px;
+  top: 39px;
+  z-index: 9;
+}
+.Blog{
+  position: absolute;
+  width: 33px;
+  height: 17px;
+  left: 1278px;
+  top: 39px;
+  z-index: 9;
+  
+}
+.Shop{
+  position: absolute;
+  width: 37px;
+  height: 17px;
+  left: 1347px;
+  top: 39px;
+  z-index: 9;
+  
+}
+
+.Subscription{
+  position: absolute;
+  width: 89px;
+  height: 17px;
+  left: 1420px;
+  top: 39px;   
+  z-index: 9;
+  
+}
+
+.Brand{
+  position: absolute;
+  width: 138px;
+  height: 62.09px;
+  left: 390px;
+  top: 20px;
+  z-index: 9;
+  
+}
+
+
+
+
+
+.TitleChicago{
+  /* Chicago’s Free Medical Check-Up and Weight Loss Consultation */
+
+
+position: absolute;
+width: 437px;
+height: 272px;
+left: 390px;
+top: 203px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 45px !important;
+line-height: 150%;
+/* or 68px */
+
+
+color: #333333;
+}
+
+.free{
+  color:#DD71C6;
+}
+
+
+.Count{
+  /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 41px 36px;
+gap: 10px;
+
+position: absolute;
+width: 629px;
+height: 321px;
+left: 901px;
+top: 182px;
+
+background: linear-gradient(107.9deg, rgba(255, 255, 255, 0.51) 9.7%, rgba(255, 255, 255, 0.49) 88.76%);
+backdrop-filter: blur(33.5px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 50px;
+}
+
+
+.rectangle10{
+  /* Rectangle 10 */
+
+
+position: absolute;
+width: 590px;
+height: 760px;
+left: 1330px;
+top: 0px;
+
+background: #FFD900;
+border-radius: 50px 0px 0px 0px;
+
+
+}
+
+
+.Subtitle{
+  position: absolute;
+  width: 459px;
+  height: 78px;
+  left: 390px;
+  top: 501px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+
+  color: #333333 !important;
+}
+
+.Ellipse27{
+  box-sizing: border-box;
+  position: absolute;
+  width: 386px;
+ 
+  left: -91px;
+  top: 187px;
+
+}
+
+
+
+
+.Ellipse28{
+  box-sizing: border-box;
+  z-index: 10;
+  position: absolute; 
+  left: 1651px;
+  top: 123px;  
+  opacity: 1;
+  
+  
+}
+
+
+.ButttonFont{
+  width: 187px;
+  height: 20px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+  border: none;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+}
+
+.Button{
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 14px;
+  gap: 10px;
+
+  position: absolute;
+  width: 215px;
+  height: 40px;
+  left: 390px;
+  top: 605px;
+
+  background: #DD71C6;
+  border: none;
+}
+
+.YellowButton{
+  /* Molecule/button/book appointment */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 14px;
+gap: 10px;
+
+position: absolute;
+width: 215px;
+height: 40px;
+left: 853px;
+top: 431px;
+
+background: #FFD900;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.Button1 {
+	display: inline-block;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow;
+	transition-property: box-shadow;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
+	/* Hack to improve aliasing on mobile/tablet devices */
+  }
+  .Button1:hover, .Button1:focus, .Button1:active {
+	box-shadow: inset 0 0 0 4px #DD71C6, 0 0 1px rgba(0, 0, 0, 0);
+	/* Hack to improve aliasing on mobile/tablet devices */
+  }
+
+  
+
+  /*HERE START THE SECOND RECTANGLE*/
+
+.Rectangle14{
+ /* Rectangle 14 */
+  position: absolute;
+  width: 1920px;
+  height: 570px;
+  left: 0px;
+  top: 760px;
+
+  background: #DD71C6;
+
+}
+
+.Ellipse32{
+  /* Ellipse 32 */
+
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 185px;
+  height: 185px;
+  left: 118px;
+  top: 156px;
+  
+
+  opacity: 0.9;
+  
+}
+
+.Ellipse16{
+  box-sizing: border-box;
+  z-index: 10;
+  position: absolute; 
+  left: 1820px;
+  top: 55px; 
+  opacity: 1;
+  width: 100px;
+  
+  
+  
+}
+
+.frame72{
+  /* Frame 72 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px 0px 0px;
+gap: 15px;
+
+position: absolute;
+width: 249px;
+height: 264px;
+left: 390px;
+top: 99px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.03);
+border-radius: 20px;
+}
+
+.frame73{
+  /* Frame 75 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px 0px 0px;
+gap: 15px;
+
+position: absolute;
+width: 249px;
+height: 264px;
+left: 687px;
+top: 99px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.03);
+border-radius: 20px;
+}
+.frame74{
+  /* Frame 77 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px 0px 0px;
+gap: 15px;
+
+position: absolute;
+width: 249px;
+height: 264px;
+left: 984px;
+top: 99px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.03);
+border-radius: 20px;
+}
+.frame75{
+  /* Frame 79 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px 0px 0px;
+gap: 15px;
+
+position: absolute;
+width: 249px;
+height: 264px;
+left: 1281px;
+top: 99px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.03);
+border-radius: 20px;
+}
+
+.frame72:hover, .frame73:hover, .frame74:hover,  .frame75:hover{
+  -webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+  width: 255px;
+  height: 270px;
+}
+
+
+.WhoIsItFor{
+  /* Who is it for */
+  position: absolute;
+  width: 1920px;
+  height: 799px;
+  left: 0px;
+  top: 1330px;
+  
+  background: #73C3F4 !important;
+}
+
+
+.Elipse17{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 150px;
+  height: 271px;
+  left: 0;
+  top: 390px;
+
+  
+}
+
+.Subtitle2{
+  /* Who Is The Consultation For? */
+
+
+  position: absolute;
+  width: 491px;
+  height: 51px;
+  left: 389px;
+  top: 136px;
+
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 160%;
+  /* or 51px */
+
+
+  color: #FFFFFF;
+
+}
+
+
+.TextChicagoFree{
+  position: absolute;
+  width: 388px;
+  height: 130px;
+  left: 389px;
+  top: 202px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+
+  color: #FFFFFF;
+
+}
+
+.Subtitle3{
+  position: absolute;
+  width: 313px;
+  height: 51px;
+  left: 389px;
+  top: 386px;
+  
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 160%;
+  /* or 51px */
+  
+  
+  color: #FFFFFF;
+
+}
+
+.TextExam{
+  position: absolute;
+  width: 403px;
+  height: 104px;
+  left: 389px;
+  top: 452px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+
+  color: #FFFFFF;
+
+
+}
+
+.Elipse16{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 404px;
+  height: 200px;
+  left: 1063px;
+  top: 270px;
+
+ 
+}
+
+
+.Ellipse17{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 404px;
+  height: 200px;
+  left: 1063px;
+  top: 468px;
+  z-index: 9;
+
+  
+  
+
+}
+
+.Myproject-11{
+  /* My project-1 1 */
+
+
+  position: absolute;
+  width: 459.19px;
+  height: 593px;
+  left: 980px;
+  top: 98px;
+
+  background: url(Myproject-11.png);
+  border-radius: 229.595px;
+
+}
+
+.deco7{
+  /* Ellipse 17 */
+
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  left: 1444px;
+  top: 204px;
+
+
+}
+
+.deco8{
+  /* Ellipse 16 */
+
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 250px;
+  height: 450px;
+  left: 1675px;
+  top: 115px;
+
+  opacity: 1;
+  z-index: 9;
+
+}
+
+.Rectangle614{
+  /* Rectangle 614 */
+
+
+position: absolute;
+width: 1920px;
+height: 794px;
+left: 0px;
+top: 2129px;
+
+background: #FFFFFF;
+}
+
+.WeCanHelpYou{
+  position: absolute;
+  width: 288px;
+  height: 51px;
+  left: 816px;
+  top: 89px;
+
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 160%;
+  /* or 51px */
+
+  text-align: center;
+
+  color: #333333;
+}
+
+.ForThoseOfUsWhoStruggle{
+  position: absolute;
+  width: 1140px;
+  height: 78px;
+  left: 390px;
+  top: 160px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  text-align: center;
+
+  color: #333333;
+
+}
+
+.secondP{
+  position: absolute;
+  width: 1140px;
+  height: 78px;
+  left: 390px;
+  top: 263px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+  
+  text-align: center;
+  
+  color: #333333;
+}
+
+.Middle{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 14px;
+  gap: 10px;
+
+  position: absolute;
+  width: 215px;
+  height: 40px;
+  left: 852px;
+  top: 375px;
+
+  background: #DD71C6;
+}
+
+
+.iStock-1204500632{
+  position: absolute;
+  width: 1397.45px;
+  height: 625px;
+  left: 261.77px;
+  top: 400px;
+
+  background: url(iStock-1204500632.png);
+  
+}
+
+.BannerGetToKnowUs{
+  position: absolute;
+  width: 1920px;
+  height: 796px;
+  left: 0px;
+  top: 2923px;
+
+  background: #F9F9F9;
+}
+
+
+.TextBanner{
+  /* What You’ll Get At Your Free Consultation */
+
+
+  position: absolute;
+  width: 756px;
+  height: 51px;
+  left: 583px;
+  top: 102px;
+
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 160%;
+  /* or 51px */
+
+  text-align: center;
+
+  color: #333333;
+
+}
+
+.Frame82{
+  /* Frame 82 */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 0px 0px;
+  gap: 39px;
+
+  position: absolute;
+  width: 447px;
+  height: 391px;
+  left: 463px;
+  top: 217px;
+
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.TextBodyMass{
+  /* Body Mass Index */
+
+
+  width: 264px;
+  height: 41px;
+
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 172.5%;
+  /* or 41px */
+
+  text-align: center;
+
+  color: #0083D3;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Frame84{
+ /* Frame 84 */
+
+
+/* Auto layout */
+
+
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-left: 25px;
+margin-top: -10px;
+
+gap: 15px;
+
+width: 400px;
+height: 180px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.List1{
+/* Complete understanding of your body composition */
+
+z-index: 9;
+width: 363px;
+height: 56px;
+ 
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 172.5%;
+/* or 28px */
+
+
+color: #333333;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.List2{
+  /* Complete understanding of your body composition */
+  
+  z-index: 9;
+  width: 363px;
+  height: 56px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 172.5%;
+  /* or 28px */
+  
+  
+  color: #333333;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+
+
+.List3{
+    /* Complete understanding of your body composition */
+    
+    z-index: 9;
+    width: 363px;
+    height: 56px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 172.5%;
+    /* or 28px */
+    
+    
+    color: #333333;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+
+  
+.deco9{
+      /* Line 15 */
+      
+      width: 384px;
+      height: 0px;
+      border: 1px solid #B1E2FF;
+      /* Inside auto layout */
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      z-index: 9;
+    }
+
+.Frame83{
+      /* Frame 83 */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 0px 0px;
+  gap: 25px;
+
+  position: absolute;
+  width: 447px;
+  height: 391px;
+  left: 530px;
+  top: 0px;
+
+  background: #FFFFFF;
+  border-radius: 20px;
+    }
+
+
+.TextVitalSignsCheck{
+  width: 280px;
+  height: 41px;
+
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 172.5%;
+  /* or 41px */
+
+  text-align: center;
+
+  color: #DD71C6;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.pinkDeco{
+  /* Line 15 */
+
+  margin-top: 13px;
+  width: 384px;
+  height: 0px;
+
+  border: 1px solid #FFB7F0;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.Button13{
+  top: 700px;
+}
+
+
+.deco10{
+  /* Ellipse 27 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 250px;
+height: 500px;
+left: 0px !important;
+top: 192px;
+opacity: 1;
+z-index: 9!important;
+
+
+}
+
+.ColorFrequently{
+  color: #f9f9f9;
+  box-sizing: border-box;
+ 
+  
+
+  position: absolute;
+  width: 250px;
+  height: 500px;
+  left: -400px;
+  top: 280px;
+  
+ 
+  
+}
+
+.deco11{
+/* Ellipse 28 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 279px;
+height: 279px;
+left: 1530px;
+top: 31px;
+opacity: 1; 
+
+
+}
+
+.deco12{
+  box-sizing: border-box;
+
+position: absolute;
+width: 158px;
+height: 158px;
+left: 1530px;
+top: 456px;
+
+
+}
+
+.FrequentlyAskedQ{
+  position: absolute;
+  width: 1920px;
+  height: 1446px;
+  left: 0px;
+  top: 3719px;
+
+  background: #FFFFFF;
+  
+
+}
+
+
+.TextFrequentlyAskedQ{
+  position: absolute;
+  width: 500px;
+  height: 51px;
+  left: 390px;
+  top: 98px;
+
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 160%;
+  /* or 51px */
+
+
+  color: #333333;
+
+}
+
+.Frame101{
+ /* Frame 101 */
+
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: column;
+  
+  padding: 0px;
+  gap: 30px;
+
+  position: absolute;
+  width: 1138px;
+  height: 1004px;
+  left: 388px;
+  top: 250px;
+}
+
+
+
+
+
+
+
+
+
+.Rectangle23{
+  /* Rectangle 23 */
+
+
+  position: absolute;
+  width: 1920px;
+  height: 590px;
+  left: 0px;
+  top: 5165px;
+
+  background: #F9F9F9;
+}
+
+
+
+.accordion-button::after {
+  background-image: url("/Img/VectorPink.png") !important;
+ 
+}
+
+div.mb-4.accordion-item{
+  background: #F9F9F9;
+  border-radius: 20px;
+  
+  
+}
+
+.accordion-item:first-of-type {
+  border-radius: 20px !important;
+  background: #F9F9F9!important;
+  
+}
+.accordion-button{
+  border-radius: 20px !important;
+  background: #F9F9F9!important;
+}
+
+div.mb-4.accordion-item {
+  border: none;
+}
+
+.deco14{
+  /* Ellipse 34 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 269px;
+height: 269px;
+left: 1200px;
+top: -40px;
+
+
+}
+
+.deco15{
+  /* Ellipse 35 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 124px;
+height: 124px;
+left: 1200px;
+top: 650px;
+
+
+}
+
+
+.buttonBottom{
+  top: 1250px !important;
+}
+
+
+.BrandTop{
+  top: 120px;
+}
+
+
+.TextRectangle23{
+
+  position: absolute;
+width: 443px;
+height: 104px;
+left: 390px;
+top: 220px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+color: #333333;
+}
+
+
+.decoMaps{
+  /* Vector */
+
+
+position: absolute;
+width: 22px;
+height: 28px;
+left: 393px;
+top: 350px;
+
+
+
+
+
+
+}
+
+
+.decoPhone{
+/* Vector */
+
+
+position: absolute;
+width: 20.01px;
+height: 20px;
+left: 390px;
+top: 400px;
+
+
+
+}
+
+.decoInsta{
+/* Ellipse 7 */
+
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 390px;
+top: 520px;
+
+
+
+}
+
+
+.decoTwitt{
+
+  /* Ellipse 8 */
+
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 450px;
+top: 520px;
+
+
+
+
+}
+
+
+.decoFace{
+/* Ellipse 9 */
+
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 510px;
+top: 520px;
+
+
+}
+
+
+.HeadOddice{
+  /* Head Office: 1931 W 95th Streeet Chicago IL, 60643 */
+
+
+position: absolute;
+width: 410px;
+height: 26px;
+left: 424px;
+top: 350px;
+
+font-family: 'Montserrat' !important;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+color: #333333;
+}
+
+.Phone{
+  /* Phone: 773-496-4222 */
+
+
+  position: absolute;
+  width: 172px;
+  height: 26px;
+  left: 424px;
+  top: 400px;
+
+  font-family: 'Montserrat'!important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+
+  color: #333333;
+
+}
+
+.deco16{
+  /* Ellipse 26 */
+
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  left: 80px;
+  top: 220px;
+
+ 
+}
+
+.deco17{
+  /* Ellipse 25 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 368px;
+height: 450px;
+left: 1650px;
+top: 80px;
+
+
+}
+
+.About{
+  /* About */
+
+
+position: absolute;
+width: 76px;
+height: 38px;
+left: 1103px;
+top: 134px;
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 160%;
+/* or 38px */
+
+
+color: #333333;
+
+}
+
+
+.MoreLinks{
+  /* More Links */
+
+
+position: absolute;
+width: 141px;
+height: 38px;
+left: 1335px;
+top: 134px;
+
+font-family: 'Libre Baskerville';
+font-style: normal ;
+font-weight: 400 ;
+font-size: 24px;
+line-height: 160%;
+/* or 38px */
+
+
+color: #333333;
+
+}
+
+.UlAbout{
+  list-style: none;
+  /* About Us */
+
+
+  position: absolute;
+  
+  height: 26px;
+  left: 1074px;
+  top: 180px;
+ 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+
+color: #333333;
+
+}
+
+.UlMoreLinks{
+  list-style: none;
+  /* Franchise Opportunities */
+
+
+  position: absolute;
+  width: 250px;
+  height: 26px;
+  left: 1306px;
+  top: 180px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+
+  color: #333333;
+}
+
+.AboutMargin{
+  margin-top: 24px;
+}
+
+
+.Footer23{
+  /* Copyright by A Better Weigh Inc. All rights reserved. */
+
+
+  position: absolute;
+  width: 419px;
+  height: 26px;
+  left: 1103px;
+  top: 520px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+
+  color: #333333;
+
+}
